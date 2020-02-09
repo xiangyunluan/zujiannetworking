@@ -57,10 +57,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		74415F410D4865AF43B6C3AD /* zujiannetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = zujiannetworking.podspec; path = ../zujiannetworking.podspec; sourceTree = "<group>"; };
+		74415F410D4865AF43B6C3AD /* zujiannetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = zujiannetworking.podspec; path = ../zujiannetworking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8F7308FB98DB9B5FB78376E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BCD54DB2E4314DB1FB97C077 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8F7308FB98DB9B5FB78376E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BCD54DB2E4314DB1FB97C077 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CB5391481AD494404A1AC156 /* Pods-zujiannetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zujiannetworking_Example.debug.xcconfig"; path = "Target Support Files/Pods-zujiannetworking_Example/Pods-zujiannetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F4B6507698BFD603A65DDE8F /* Pods-zujiannetworking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zujiannetworking_Example.release.xcconfig"; path = "Target Support Files/Pods-zujiannetworking_Example/Pods-zujiannetworking_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -185,7 +185,6 @@
 				CB5391481AD494404A1AC156 /* Pods-zujiannetworking_Example.debug.xcconfig */,
 				F4B6507698BFD603A65DDE8F /* Pods-zujiannetworking_Example.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +248,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
