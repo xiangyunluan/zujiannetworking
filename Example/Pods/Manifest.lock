@@ -1,0 +1,16 @@
+PODS:
+  - zujiannetworking (0.1.0)
+
+DEPENDENCIES:
+  - zujiannetworking (from `../`)
+
+EXTERNAL SOURCES:
+  zujiannetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  zujiannetworking: e4da24ef017ca8979120742e61b9e9e336899183
+
+PODFILE CHECKSUM: 64fab9deccdc355ec472e54b7185608441f5e747
+
+COCOAPODS: 1.8.0.beta.1
